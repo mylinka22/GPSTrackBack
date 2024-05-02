@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "622003117631",
+    "firebase_url": "https://gps-track-c5f85-default-rtdb.firebaseio.com",
+    "project_id": "gps-track-c5f85",
+    "storage_bucket": "gps-track-c5f85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622003117631:android:4a753fccd93097292e628a",
+        "android_client_info": {
+          "package_name": "com.example.gpstrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-YztN3xyuhXCdlKt8codnb4a9ATNRH3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622003117631:android:2bb18d0b26ce8c962e628a",
+        "android_client_info": {
+          "package_name": "com.plcoding.backgroundlocationtracking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-YztN3xyuhXCdlKt8codnb4a9ATNRH3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

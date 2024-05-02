@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#412160">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#271539"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittext_background"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="center"
+            android:hint="Почта"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp">
+        </androidx.appcompat.widget.AppCompatEditText>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edit_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_mail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="310dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittext_background"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="center"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp">
+
+        </androidx.appcompat.widget.AppCompatEditText>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_gravity="center|top"
+            android:layout_marginTop="370dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/button_login"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="20sp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_below="@id/edit_pass"
+            android:layout_height="wrap_content"
+            android:text="Войти" />
+
+        <TextView
+            android:id="@+id/textView_noacc"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:layout_centerHorizontal="true"
+            android:text="Нет аккаута"
+            android:textColor="#8F8F8F" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_reg"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/button_background"
+            android:textSize="20sp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Зарегистрироваться"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Sin Up"
+            android:textColor="@color/white"
+            android:textSize="70sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
